@@ -1,0 +1,74 @@
+MIT License
+
+Copyright (c) 2023 (S.Y.C 'SDK_YOUTUBE_CONTROL')
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-----------------------------------------------------------------------------
+
+DISCLAIMER
+
+This software uses the YouTube API but is not endorsed or certified by YouTube or Google. The developer of this software does not have explicit permissions from YouTube to create this application.
+
+While the creation of this software is not explicitly prohibited by YouTube's terms of service, it operates in a gray area. The developer acknowledges that YouTube may request the removal of this software if they determine it violates their terms of service or API usage policies.
+
+This is an open-source project provided for educational and personal use. Developers who use or modify this code are solely responsible for ensuring their usage complies with YouTube's terms of service and all applicable laws.
+
+If YouTube or Google requests the removal of this software, the developer commits to promptly comply with such requests.
+
+By using this software, you acknowledge this disclaimer and accept full responsibility for your use of the software.
+
+-----------------------------------------------------------------------------
+
+Licencia MIT
+
+Copyright (c) 2023 (S.Y.C 'SDK_YOUTUBE_CONTROL')
+
+Se concede permiso, de forma gratuita, a cualquier persona que obtenga una copia
+de este software y de los archivos de documentación asociados (el "Software"), para
+utilizar el Software sin restricción, incluyendo sin limitación los derechos
+de usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender
+copias del Software, y para permitir a las personas a las que se les proporcione
+el Software a hacer lo mismo, sujeto a las siguientes condiciones:
+
+El aviso de copyright anterior y este aviso de permiso se incluirán en todas
+las copias o partes sustanciales del Software.
+
+EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O
+IMPLÍCITA, INCLUYENDO PERO NO LIMITADO A GARANTÍAS DE COMERCIALIZACIÓN,
+IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN. EN NINGÚN CASO LOS
+AUTORES O TITULARES DEL COPYRIGHT SERÁN RESPONSABLES DE NINGUNA RECLAMACIÓN,
+DAÑOS U OTRAS RESPONSABILIDADES, YA SEA EN UNA ACCIÓN DE CONTRATO, AGRAVIO O
+CUALQUIER OTRO MOTIVO, QUE SURJA DE O EN CONEXIÓN CON EL SOFTWARE O EL USO U
+OTRO TIPO DE ACCIONES EN EL SOFTWARE.
+
+-----------------------------------------------------------------------------
+
+AVISO LEGAL
+
+Este software utiliza la API de YouTube pero no está respaldado ni certificado por YouTube o Google. El desarrollador de este software no tiene permisos explícitos de YouTube para crear esta aplicación.
+
+Aunque la creación de este software no está explícitamente prohibida por los términos de servicio de YouTube, opera en un área gris. El desarrollador reconoce que YouTube puede solicitar la eliminación de este software si determina que viola sus términos de servicio o políticas de uso de API.
+
+Este es un proyecto de código abierto proporcionado para uso educativo y personal. Los desarrolladores que usen o modifiquen este código son los únicos responsables de asegurar que su uso cumpla con los términos de servicio de YouTube y todas las leyes aplicables.
+
+Si YouTube o Google solicitan la eliminación de este software, el desarrollador se compromete a cumplir rápidamente con dichas solicitudes.
+
+Al usar este software, reconoces este aviso legal y aceptas la plena responsabilidad por tu uso del software.
+

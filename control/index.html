@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="control/styles.css">
+</head>
+<body>
+    <h1>Control</h1>
+    
+    <div class="search-container">
+        <input type="text" id="searchQuery" placeholder="Search song...">
+        <button onclick="searchMusic()">Search</button>
+    </div>
+
+    <div id="currentlyPlaying">
+        <h3>Playing now:</h3>
+        <p id="currentSong">No song selected</p>
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar" onclick="seekToPosition(event)">
+                <div class="progress" id="progress"></div>
+            </div>
+            <div class="time-display">
+                <span id="currentTime">0:00</span>
+                <span id="duration">0:00</span>
+            </div>
+        </div>
+        <div class="volume-control">
+            <span class="volume-icon" id="volumeIcon" onclick="toggleMute()">🔊</span>
+            <div class="volume-bar-container" id="volumeBarContainer">
+                <div class="volume-bar" id="volumeBar"></div>
+            </div>
+            <span class="volume-label" id="volumeLabel">100%</span>
+        </div>
+        <div class="player-status" id="playerStatus">Status: Stopped</div>
+    </div>
+
+    <div class="controls">
+        <button onclick="sendCommand('pause')">⏸️ Pause</button>
+        <button onclick="sendCommand('resume')">▶️ Play</button>
+        <button onclick="sendCommand('stop')">⏹️ Stop</button>
+        <button onclick="playPrevious()">⏮️ Previous</button>
+        <button onclick="playNext()">⏭️ Next</button>
+    </div>
+
+    <div class="playlist" id="results"></div>
+
+    <script src="control/script.js"></script>
+</body>
+</html>

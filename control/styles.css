@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+#searchQuery {
+    padding: 8px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+    .controls {
+    margin: 20px 0;
+    padding: 10px;
+    background: #f5f5f5;
+    border-radius: 5px;
+}
+.controls button {
+    margin: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+.playlist {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+.song-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+.song-item:last-child {
+    border-bottom: none;
+}
+.song-info {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+.song-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.song-artist {
+    color: #666;
+    font-size: 0.9em;
+}
+.play-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.play-button:hover {
+    background-color: #45a049;
+}
+#currentlyPlaying {
+    margin-top: 20px;
+    padding: 10px;
+    background: #e9e9e9;
+    border-radius: 5px;
+}
+.progress-container {
+    width: 100%;
+    margin: 10px 0;
+}
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.progress {
+    height: 100%;
+    background-color: #4CAF50;
+    width: 0%;
+    transition: width 0.1s linear;
+}
+.time-display {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #666;
+}
+.player-status {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.volume-control {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #f5f5f5;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.volume-bar-container {
+    position: relative;
+    width: 100px;  
+    height: 4px;   
+    background: #ddd;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.volume-bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: #4CAF50;
+    border-radius: 2px;
+    pointer-events: none;
+}
+
+.volume-icon {
+    cursor: pointer;
+    font-size: 1.2em;
+    min-width: 24px;
+    text-align: center;
+}
+
+.volume-label {
+    min-width: 40px;
+    font-size: 0.8em;
+    color: #666;
+}
+
+.volume-bar-container::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 0;
+    right: 0;
+    bottom: -8px;
+    cursor: pointer;
+}
